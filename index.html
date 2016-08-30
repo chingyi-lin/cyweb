@@ -23,16 +23,45 @@
     <!--*****END OF Azure Media Player Scripts*****-->
 	</head>
 	<body>
-    <h1>Azure Media Player: Demo VOD</h1>
-    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoplay width="640" height="400" poster="" data-setup='{}' tabindex="0">
-        <source src="http://cyams.streaming.mediaservices.windows.net/2ba0b166-da17-47ee-ab77-7751b7366554/Open Source on Microsoft Azure.ism/manifest" type="application/vnd.ms-sstr+xml" />
-        <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
-    </video>
-    <br>
-    <h1>Azure Media Player: Demo Streaming</h1>
-    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoplay width="640" height="400" poster="" data-setup='{}' tabindex="0">
-        <source src="http://cyams.streaming.mediaservices.windows.net/6d455565-dc0f-451c-b7a5-6f45bf77d45d/f81e3708-69c5-4f74-a05d-fd03282e8ab5.ism/manifest" type="application/vnd.ms-sstr+xml" />
-        <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
-    </video>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="./index.html">Home</a>
+   	 	</div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#">Azure Media Services <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Demo</a></li>
+	      </ul>
+	    </div>
+  	</div>
+		</nav>
+
+		<div class="col-md-1"></div>
+		<div class="col-md-11">
+			<div class="row">
+				<div class="page-header"><h1>Azure Media Player: Demo VOD</h1></div>
+		    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoplay width="640" height="400" poster="" data-setup='{}' tabindex="0">
+		        <source src="http://cyams.streaming.mediaservices.windows.net/2ba0b166-da17-47ee-ab77-7751b7366554/Open Source on Microsoft Azure.ism/manifest" type="application/vnd.ms-sstr+xml" />
+		        <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+		    </video>
+		  </div>
+		  <div class="row">
+		 		<div class="page-header"><h1>Azure Media Player: Demo Streaming</h1></div>
+		    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoplay width="640" height="400" poster="" data-setup='{}' tabindex="0">
+		        <source src="http://cyams.streaming.mediaservices.windows.net/6d455565-dc0f-451c-b7a5-6f45bf77d45d/f81e3708-69c5-4f74-a05d-fd03282e8ab5.ism/manifest" type="application/vnd.ms-sstr+xml" />
+		        <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+		    </video>
+		  </div>
+
   </body>
 </html>
